@@ -1,1 +1,75 @@
-<h1>TEST</h1>
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Helldiver</title>
+        <link rel="icon" type="image/x-icon" href="/images/logo_small.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1><img src="images/logo_big.png" alt="Random Helldiver logo" /></h1>
+        <div class="menu" id="menu">
+            <ul>
+                <li>Choose Helmets</li>
+                <li>Choose Armors</li>
+                <li>Choose Capes</li>
+                <li>Choose Primaries</li>
+                <li>Choose Secondaries</li>
+                <li>Choose Throwables</li>
+                <li>Choose Stratagems</li>
+                <li>Choose Boosters</li>
+                <li>Reset All Lists</li>
+            </ul>
+        </div>
+        <div class="list">
+        </div>
+        <div class="splash">
+            <h2>Welcome to Random Helldiver!</h2>
+            <p>You can start by choosing everything you have unlocked by <br /> <span>going to the menu</span>.</p>
+            <div class="container">
+                <button>Generate New Loadout</button>
+            </div>
+        </div>
+            <div class="loadout">
+                <div class="helmet boxsmall" id="helmet" style="background-image: url('images/helmet/b-01_tactical.png')">
+                    <p>B-01 Tactical</p>
+                </div>
+                <div class="armour boxsmall" id="armour" style="background-image: url('images/armour/b-01_tactical.png');">
+                    <p>B-01 Tactical</p>
+                </div>
+                <div class="cape boxsmall" id="cape">
+                    <p>Foesmasher</p>
+                </div>
+                <div class="primary boxlarge" id="primary">
+                    <p>AR-23 Liberator</p>
+                </div>
+                <div class="secondary boxlarge" id="secondary">
+                    <p>P-2 Peacemaker</p>
+                </div>
+                <div class="throwable boxsmall" id="throwable">
+                    <p>G-12 High Explosive</p>
+                </div>
+                <div class="stratagem boxsmall" id="strat1" style="background-image: url('images/stratagem/mg-43_machine_gun.png');">
+                    <p>MG-43 Machine Gun</p>
+                </div>
+                <div class="stratagem boxsmall" id="strat2" style="background-image: url('images/stratagem/orbital_precision_strike.png');">
+                    <p>Orbital Precision Strike</p>
+                </div>
+                <div class="stratagem boxsmall" id="strat3" style="background-image: url('images/stratagem/none.png');">
+                    <p>No Stratagem</p>
+                </div>
+                <div class="stratagem boxsmall" id="strat4" style="background-image: url('images/stratagem/none.png');">
+                    <p>No Stratagem</p>
+                </div>
+                <div class="booster boxsmall" id="booster" style="background-image: url('images/booster/none.png');">
+                    <p>No Booster</p>
+                </div>
+            </div>
+    </body> 
+    <script src="/script.js"></script>
+</html>
